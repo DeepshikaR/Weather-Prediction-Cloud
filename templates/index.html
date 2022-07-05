@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/CSS/main.css">
+    <title>Model Deployment</title>
+</head>
+<body>
+
+ 
+        <center>
+        <h1>Weather Prediction</h1>
+        <form action=" " method="post">
+        <table>
+            <tr><th>Precipitation:</th>
+                <td><input type="number" name="precp" placeholder="Precipitation" step="0.01"></td></tr>
+            <tr><th>Maximum Temperature</th>
+                <td><input type="number" name="maxT" placeholder="Maximum Temperature" step="0.01"></td></tr>
+            <tr><th>Minimum Temperature</th>
+                <td><input type="number" name="minT" placeholder="Minimum Temperature" step="0.01"></td></tr>
+            <tr><th>Wind Speed</th>
+                <td><input type="number" name="wind" placeholder="Wind Speed" step="0.01"></td></tr>       
+        
+        </table>
+        <br>
+        <input type="submit">
+        </form>
+        <br>
+        <h4>Predicted Weather</h4>
+        {{n}}
+        <br><br>
+        </center>
+
+
+    
+</body>
+</html>
